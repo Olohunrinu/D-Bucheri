@@ -1,0 +1,114 @@
+
+body{
+
+    background-color: rgba(20, 170, 240, 0.342);
+}
+.navdiv{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navdiv img{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+   width: 150px;
+
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+    top: -95px;
+    left: 65px;
+    background-color: rgb(149, 149, 250);
+    border: .5px red dotted;
+}
+#first-id{
+    position: relative;
+    top: -100px;
+    left: 122px;
+    margin: 0px;
+}
+
+span{
+    font:  italic 19px bold times;
+    color: green;
+}
+
+.containment{
+    display: flex;
+    gap: 20px;
+}
+
+.home-div{
+    font: 1.2rem italic bold ;
+}
+
+.profile_01{
+    display: flex;
+    gap: 15px;
+}
+
+.profile_01 img{
+    height: 250px;
+    width: 250px;
+    margin: 0px;
+}
+
+.profile_01 p{
+    margin: 0px;
+    text-align: center;
+}
+
+.profile-pix{
+    height: 250px;
+    width: 230px;
+}
+@media (max-width:420px) {
+    .containment{
+        display:block;
+        gap: 10px;
+}
+   .home-div img{
+        width: 100px;
+   }
+
+   .office{
+    font-size: 15px;
+   }
+
+   h3{
+    font-size: 15px;
+   }
+
+   .profile_01{
+    display: inline;
+
+   }
+
+   .profile_01 img{
+    height: 125px;
+    width: 125px;
+    /* margin: .5rem; */
+   }
+
+   .profile_01 p{
+    font-size: 1rem;
+    text-align: justify;
+    /* margin: 0.3rem;
+    padding: 0px; */
+    
+    /* position: absolute; */
+   }
+   
+   h2{
+    font-size: 1rem;
+   }
+}
+
