@@ -1,7 +1,7 @@
 
 body{
 
-    background-color: rgba(20, 170, 240, 0.342);
+    background-color: rgb(192, 223, 248);
 }
 .navdiv{
     margin: 0px;
@@ -112,3 +112,118 @@ span{
    }
 }
 
+.mygrid{
+    width: 800px;
+    display: grid;
+    grid-template-columns:  repeat(8, 100px);
+    grid-template-rows:  repeat(8, 100px ) ;
+}
+
+.white{
+    /* color: white; */
+    /* height: 100px;
+    width: 100px; */
+    background-color: rgb(194, 255, 255);
+}
+
+.black{
+    /* color: white; */
+    /* height: 100px;
+    width: 100px; */
+    background-color: black;
+
+}
+
+.car{
+    /* height: 200px; */
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+.blacki{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.whitii{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.size{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-auto-rows: 150px auto;
+}
+
+.blacky{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding-top: 15px; */
+}
+
+.whitey{
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.whitey p{
+    position: relative;
+    top: 50px;
+}
+
+.Before-before{
+display: grid;
+grid-template-columns: 1fr 2fr 3fr 4fr;
+grid-template-rows: 1fr 4fr;
+background-color: blue;
+text-align: center;
+height: 150px;
+}
+
+.sting{
+    background-color: red;
+}
+
+.stinge{
+    background-color: brown;
+}
+
+.sizing{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto 400px minmax(200px,500px);
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-auto-rows: 50px;
+    text-align: center;
+    font: bold italic 15px verdana;
+    color: brown;
+}
+
+.sizing div{
+   border: .5px solid green ; 
+}
+
+.clown{
+    display: grid;
+    background-color: rgb(253, 222, 227);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.clown div{
+    font-size: 5rem;
+    height: 250px;
+}
